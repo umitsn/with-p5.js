@@ -1,7 +1,7 @@
 // umit sen - izmir - 2019
 let noktalar = [];
-let noktaSayisi = 100;
-let sw=1;
+let noktaSayisi = 80;
+let sw,clrr;
 
 function setup() {
   createCanvas(600, 400);
@@ -37,19 +37,16 @@ function bagla() {
   for (var i of noktalar) {
     for (var j of noktalar) {
       var d = dist(j.x, j.y, i.x, i.y);
-
-      if (d <= 50) {
-        sw = map(d,0,50,0.5,2);
-        stroke(0, 0, 255, 150);
+      if (d<=80) {
+        sw = map(d,0,80,2,0.1);
+        if(d<50){
+          clrr = color(0,0,255,150);
+        }else {
+          clrr = color(255,0,0,150);
+        }
+        stroke(clrr);
         strokeWeight(sw);
-        line(j.x, j.y, i.x, i.y);
-      }
-      
-      if (50<d && d< 80) {
-        sw = map(d,50,80,2,0.1);
-        stroke(255, 0, 0, 100);
-        strokeWeight(sw);
-        line(j.x, j.y, i.x, i.y);
+        line(j.x, j.y, i.x, i.y);        
       }
       
     }//for sonu
