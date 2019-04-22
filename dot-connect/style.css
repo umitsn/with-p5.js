@@ -5,4 +5,15 @@ html, body {
 canvas {
   display: block;
   border: 2px solid purple;
+  margin-left:30px;
+  margin-top:15px;
+}
+
+button {
+  width:200px;
+  height:30px;
+  background-color:#019AD2;
+  margin-left:30px;
+  margin-top: 10px;
+  
 }
