@@ -26,7 +26,6 @@ function draw() {
 
   if(rds<=200){
     sw = map(rds,0,200,5,0.01);
-    clrr = map(rds,0,200,0,255);
   }
   if(rds>210){speed = -0.5}
   if(rds<10){speed = 0.5}
