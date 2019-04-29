@@ -1,1 +1,1 @@
-<a href="https://umitsen.wordpress.com/2019/04/23/noktalarla-animasyon-javascriptp5-js/" target="_blank">"Dot Connect" Blog yazısı.</a>
+Noktalarla animasyon <a href="https://umitsen.wordpress.com/2019/04/23/noktalarla-animasyon-javascriptp5-js/" target="_blank">"Dot Connect" Blog yazısı.</a>
